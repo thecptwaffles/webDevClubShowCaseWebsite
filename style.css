@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
+
+:root {
+    --prim-font:'Montserrat', sans-serif;
+    --sec-font:'Raleway', sans-serif;
+    --first-clr:#9f2dae;
+    --sec-clr:#5bbab4;
+    --accent-clr:#48817d;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, var(--first-clr), var(--accent-clr));
+    color: white;
+}
+
+h1 {
+    font-family: var(--prim-font);
+    text-align: center;
+    font-size: 4.5rem;
+    text-decoration: underline;
+}
+
+p {
+    font-family: var(--sec-font);
+    font-size: 2rem;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rotateSquare {
+    font-family: var(--sec-font);
+    border-radius: 3px;
+    border-width: 5px;
+    font-size: 2rem;
+    border-color: var(--accent-clr);
+    background-color: var(--sec-clr);
+    margin-top: 100px;
+}
+
+#square {
+    background-color: var(--sec-clr);
+    width: 100px;
+    height: 100px;
+    transition-timing-function: ease;
+    transition-duration: 5s;
+}
+
+#square:hover {
+    transform: rotate(180deg);
+}
+
+
+
+
+
