@@ -23,6 +23,15 @@ h1 {
 p {
     font-family: var(--sec-font);
     font-size: 2rem;
+    text-align: center;
+}
+
+a {
+  font-family: var(--sec-font);
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
 }
 
 .center {
